@@ -472,16 +472,16 @@ d "mrs sl, spsr" fff3008a
 aB "mrs r10, spsr" fff3008a
 d "mrs r3, apsr" eff30083
 aB "mrs r3, apsr" eff30083
-d "msr cpsr_cxs, r8" 88f3008e
-aB "msr cpsr_cxs, r8" 88f3008e
-d "msr spsr_xf, r2" 92f30085
-aB "msr spsr_xf, r2" 92f30085
-d "msr apsr_nzcvq, r6" 86f30081
-aB "msr apsr_nzcvq, r6" 86f30081
-d "msr apsr_g, sl" 8af30082
-aB "msr apsr_g, r10" 8af30082
-d "msr apsr_nzcvqg, r1" 81f30083
-aB "msr apsr_nzcvqg, r1" 81f30083
+d "msr cpsr_sxc, r8" 88f30087
+aB "msr cpsr_sxc, r8" 88f30087
+d "msr spsr_fx, r2" 92f3008a
+aB "msr spsr_fx, r2" 92f3008a
+d "msr apsr_nzcvq, r6" 86f30088
+aB "msr apsr_nzcvq, r6" 86f30088
+d "msr apsr_g, sl" 8af30084
+aB "msr apsr_g, r10" 8af30084
+d "msr apsr_nzcvqg, r1" 81f3008c
+aB "msr apsr_nzcvqg, r1" 81f3008c
 d "muls r6, r2, r6" 5643
 aB "mul r6, r2, r6" 5643
 d "mul sb, r5, ip" 05fb0cf9
