@@ -423,277 +423,275 @@ a "lsr r3, r9, r8" 29fa08f3
 d "lsrs.w r2, r6, r1" 36fa01f2
 a "lsrs r2, r6, r1" 36fa01f2
 d "mcr p3, 7, sb, c10, c1, 0" eaee1193
-aB "mcr p3, 7, r9, c10, c1" eaee1193
+a "mcr p3, 7, r9, c10, c1" eaee1193
 dB "mcr2 p11, 5, r6, c4, c14, 2" a4fe5e6b
-aB "mcr2 p11, 5, r6, c4, c14, 2" a4fe5e6b
+a "mcr2 p11, 5, r6, c4, c14, 2" a4fe5e6b
 d "mcrr p12, 0xe, r6, sb, c10" 49ecea6c
-aB "mcrr p12, 14, r6, r9, c10" 49ecea6c
+a "mcrr p12, 14, r6, r9, c10" 49ecea6c
 dB "mcrr2 p6, 2, r7, r2, c3" 42fc2376
-aB "mcrr2 p6, 2, r7, r2, c3" 42fc2376
+a "mcrr2 p6, 2, r7, r2, c3" 42fc2376
 d "mla r6, r2, sl, sp" 02fb0ad6
-aB "mla r6, r2, r10, r13" 02fb0ad6
+a "mla r6, r2, r10, r13" 02fb0ad6
 d "mls r6, sl, r2, r5" 0afb1256
-aB "mls r6, r10, r2, r5" 0afb1256
+a "mls r6, r10, r2, r5" 0afb1256
 d "movs r6, 0x26" 2626
-aB "mov r6, 0x26" 2626
+a "mov r6, 0x26" 2626
 d "mov.w r7, -0x4dff4e00" 4ff0b227 # 0xb200b200
-aB "mov r7, 0xb200b200" 4ff0b227
+a "mov r7, 0xb200b200" 4ff0b227
 d "movs.w fp, 0x130000" 5ff4981b
-aB "movs r11, 0x00130000" 5ff4981b
+a "movs r11, 0x00130000" 5ff4981b
 d "mov.w r2, 0x2b" 4ff02b02
-aB "mov.w r2, 0x2b" 4ff02b02
+a "mov.w r2, 0x2b" 4ff02b02
 d "movw r6, 0x248f" 42f28f46
-aB "movw r6, 0x248f" 42f28f46
+a "movw r6, 0x248f" 42f28f46
 d "mov sb, ip" e146
-aB "mov r9, r12" e146
+a "mov r9, r12" e146
 d "movs r6, r2" 1600
-aB "mov r6, r2" 1600
-d "mov.w r7, sl" 4fea0a07
-aB "mov r7, r10" 4fea0a07
+a "movs r6, r2" 1600
 d "movs.w r3, ip" 5fea0c03
-aB "movs r3, r12" 5fea0c03
+a "movs r3, r12" 5fea0c03
 d "movs.w r2, r3" 5fea0302
-aB "movs.w r2, r3" 5fea0302
+a "movs.w r2, r3" 5fea0302
 d "mov.w ip, r5" 4fea050c
-aB "mov.w r12, r5" 4fea050c
+a "mov.w r12, r5" 4fea050c
 d "movt r8, 0xf3a3" cff2a338
-aB "movt r8, 0xf3a3" cff2a338
+a "movt r8, 0xf3a3" cff2a338
 d "mrc p12, 3, sb, c3, c13, 0" 73ee1d9c
-aB "mrc p12, 3, r9, c3, c13" 73ee1d9c
+a "mrc p12, 3, r9, c3, c13" 73ee1d9c
 dB "mrc2 p5, 7, r3, c15, c2, 2" fffe5235
-aB "mrc2 p5, 7, r3, c15, c2, 2" fffe5235
+a "mrc2 p5, 7, r3, c15, c2, 2" fffe5235
 d "mrrc p6, 0xc, r4, ip, c9" 5cecc946
-aB "mrrc p6, 12, r4, r12, c9" 5cecc946
+a "mrrc p6, 12, r4, r12, c9" 5cecc946
 dB "mrrc2 p8, 3, sb, sp, c2" 5dec3298
-aB "mrrc2 p8, 3, r9, r13, c2" 5dfc3298
+a "mrrc2 p8, 3, r9, r13, c2" 5dfc3298
 d "mrs r8, apsr" eff30088
-aB "mrs r8, cpsr" eff30088
+a "mrs r8, cpsr" eff30088
 d "mrs sl, spsr" fff3008a
-aB "mrs r10, spsr" fff3008a
+a "mrs r10, spsr" fff3008a
 d "mrs r3, apsr" eff30083
-aB "mrs r3, apsr" eff30083
+a "mrs r3, apsr" eff30083
 d "msr cpsr_sxc, r8" 88f30087
-aB "msr cpsr_sxc, r8" 88f30087
+a "msr cpsr_sxc, r8" 88f30087
 d "msr spsr_fx, r2" 92f3008a
-aB "msr spsr_fx, r2" 92f3008a
+a "msr spsr_fx, r2" 92f3008a
 d "msr apsr_nzcvq, r6" 86f30088
-aB "msr apsr_nzcvq, r6" 86f30088
+a "msr apsr_nzcvq, r6" 86f30088
 d "msr apsr_g, sl" 8af30084
-aB "msr apsr_g, r10" 8af30084
+a "msr apsr_g, r10" 8af30084
 d "msr apsr_nzcvqg, r1" 81f3008c
-aB "msr apsr_nzcvqg, r1" 81f3008c
+a "msr apsr_nzcvqg, r1" 81f3008c
 d "muls r6, r2, r6" 5643
-aB "mul r6, r2, r6" 5643
+a "mul r6, r2, r6" 5643
 d "mul sb, r5, ip" 05fb0cf9
-aB "mul r9, r5, r12" 05fb0cf9
+a "mul r9, r5, r12" 05fb0cf9
 d "mul r8, r2, r8" 02fb08f8
-aB "mul r8, r2, r8" 02fb08f8
+a "mul r8, r2, r8" 02fb08f8
 d "mul r1, r2, r3" 02fb03f1
-aB "mul r1, r2, r3" 02fb03f1
+a "mul r1, r2, r3" 02fb03f1
 d "mvn r6, 0x120012" 6ff01216
-aB "mvn r6, 0x00120012" 6ff01216
+a "mvn r6, 0x00120012" 6ff01216
 d "mvns r3, 0x450" 7ff48a63
-aB "mvns r3, 0x00000450" 7ff40a63
+a "mvns r3, 0x00000450" 7ff48a63
 d "mvns r6, r2" d643
-aB "mvn r6, r2" d643
+a "mvn r6, r2" d643
 d "mvn.w sb, r6" 6fea0609
-aB "mvn r9, r6" 6fea0609
+a "mvn r9, r6" 6fea0609
 d "mvns.w r8, r2" 7fea0208
-aB "mvns r8, r2" 7fea0208
+a "mvns r8, r2" 7fea0208
 d "mvn.w sl, r3, lsr 17" 6fea534a
-aB "mvn r10, r3, lsr 17" 6fea534a
+a "mvn r10, r3, lsr 17" 6fea534a
 d "mvn.w r1, r2" 6fea0201
-aB "mvn.w r1, r2" 6fea0201
+a "mvn.w r1, r2" 6fea0201
 d "nop" 00bf
-aB "nop" 00bf
+a "nop" 00bf
 d "nop.w" aff30080
-aB "nop.w" aff30080
+a "nop.w" aff30080
 d "orn r6, sl, -0x54545455" 6af0ab36 # 0xabababab
-aB "orn r6, r10, 0xabababab" 6af0ab36
+a "orn r6, r10, 0xabababab" 6af0ab36
 d "orns r2, r3, 0x12800" 73f49432
-aB "orns r2, r3, 0x00012800" 73f49432
+a "orns r2, r3, 0x00012800" 73f49432
 d "orn sl, fp, r8" 6bea080a
-aB "orn r10, r11, r8" 6bea080a
+a "orn r10, r11, r8" 6bea080a
 d "orns r3, r2, r7" 72ea0703
-aB "orns r3, r2, r7" 72ea0703
+a "orns r3, r2, r7" 72ea0703
 d "orn r1, r1, r2" 61ea0201
-aB "orn r1, r2" 61ea0201
+a "orn r1, r2" 61ea0201
 d "orn r6, r7, r3, asr 26" 67eaa366
-aB "orn r6, r7, r3, asr 26" 67eaa366
+a "orn r6, r7, r3, asr 26" 67eaa366
 d "orr sl, ip, 0x730073" 4cf0731a
-aB "orr r10, r12, 0x00730073" 4cf0731a
+a "orr r10, r12, 0x00730073" 4cf0731a
 d "orrs r3, r5, 0xb7" 55f0b703
-aB "orrs r3, r5, 0xb7" 55f0b703
+a "orrs r3, r5, 0xb7" 55f0b703
 d "orr r6, r6, 0xf7000000" 46f07746
-aB "orr r6, 0xf7000000" 46f07746
+a "orr r6, 0xf7000000" 46f07746
 d "orrs r6, r2" 1643
-aB "orr r6, r2" 1643
+a "orr r6, r2" 1643
 d "orr.w r8, r7, r5" 47ea0508
-aB "orr r8, r7, r5" 47ea0508
+a "orr r8, r7, r5" 47ea0508
 d "orrs.w r7, sb, r1" 59ea0107
-aB "orrs r7, r9, r1" 59ea0107
+a "orrs r7, r9, r1" 59ea0107
 d "orr.w r2, r6, r5, ror 30" 46eab572
-aB "orr r2, r6, r5, ror 30" 46eab572
+a "orr r2, r6, r5, ror 30" 46eab572
 d "orr.w sb, sb, r4" 49ea0409
-aB "orr r9, r4" 49ea0409
+a "orr r9, r4" 49ea0409
 d "orr.w r1, r1, r2" 41ea0201
-aB "orr.w r1, r2" 41ea0201
+a "orr.w r1, r2" 41ea0201
 d "pkhbt r6, r2, r5" c2ea0506
-aB "pkhbt r6, r2, r5" c2ea0506
+a "pkhbt r6, r2, r5" c2ea0506
 d "pkhbt r1, r1, sb" c1ea0901
-aB "pkhbt r1, r9" c1ea0901
+a "pkhbt r1, r9" c1ea0901
 d "pkhbt r3, r5, r7, lsl 0x11" c5ea4743
-aB "pkhbt r3, r5, r7, lsl 17" c5ea4743
+a "pkhbt r3, r5, r7, lsl 17" c5ea4743
 d "pkhtb r6, sl, r1, asr 0x20" caea2106
-aB "pkhtb r6, r10, r1, asr 0x20" caea2106
+a "pkhtb r6, r10, r1, asr 0x20" caea2106
 d "pkhtb r3, r3, r5, asr 0x20" c3ea2503
-aB "pkhtb r3, r5, asr 0x20" c3ea2503
+a "pkhtb r3, r5, asr 0x20" c3ea2503
 d "pkhtb r8, sb, r4, asr 0x1d" c9ea6478
-aB "pkhtb r8, r9, r4, asr 0x1d" c9ea6478
+a "pkhtb r8, r9, r4, asr 0x1d" c9ea6478
 d "pld [r6, 0x753]" 96f853f7
-aB "pld [r6, 0x753]" 96f853f7
+a "pld [r6, 0x753]" 96f853f7
 d "pld [sl, -0xbc]" 1af8bcfc
-aB "pld [r10, -0xbc]" 1af8bcfc
+a "pld [r10, -0xbc]" 1af8bcfc
 d "pld [pc, 0xb2c]" 9ff82cfb
-aB "pld [r15, 0xb2c]" 9ff82cfb
+a "pld [r15, 0xb2c]" 9ff82cfb
 d "pld [pc, -0x259]" 1ff859f2
-aB "pld [r15, -0x259]" 1ff859f2
+a "pld [r15, -0x259]" 1ff859f2
 d "pld [sl, r3]" 1af803f0
-aB "pld [r10, r3]" 1af803f0
+a "pld [r10, r3]" 1af803f0
 d "pld [sb, ip, lsl 3]" 19f83cf0
-aB "pld [r9, r12, lsl 3]" 19f83cf0
+a "pld [r9, r12, lsl 3]" 19f83cf0
 d "pli [r7, 0x9a2]" 97f9a2f9
-aB "pli [r7, 0x9a2]" 97f9a2f9
+a "pli [r7, 0x9a2]" 97f9a2f9
 d "pli [sl, -0x2b]" 1af92bfc
-aB "pli [r10, -0x2b]" 1af92bfc
+a "pli [r10, -0x2b]" 1af92bfc
 d "pli [pc, 0xf37]" 9ff937ff
-aB "pli [r15, 0xf37]" 9ff937ff
+a "pli [r15, 0xf37]" 9ff937ff
 d "pli [pc, -0x3fa]" 1ff9faf3
-aB "pli [r15, -0x3fa]" 1ff9faf3
+a "pli [r15, -0x3fa]" 1ff9faf3
 d "pli [sl, r5]" 1af905f0
-aB "pli [r10, r5]" 1af905f0
+a "pli [r10, r5]" 1af905f0
 d "pli [sb, ip, lsl 3]" 19f93cf0
-aB "pli [r9, r12, lsl 3]" 19f93cf0
+a "pli [r9, r12, lsl 3]" 19f93cf0
 d "pop {r1, r3, r4, r5}" 3abc
-aB "pop {r1, r3-r5}" 3abc
+a "pop {r1, r3-r5}" 3abc
 d "pop {r6, pc}" 40bd
-aB "pop {r6, pc}" 40bd
+a "pop {r6, pc}" 40bd
 d "pop.w {r3, r4, r5, r6, r7, r8, sb, sl, ip}" bde8f817
-aB "pop {r3-r10, r12}" bde8f817
+a "pop {r3-r10, r12}" bde8f817
 d "pop.w {r2, sb, lr}" bde80442
-aB "pop {r2, r9, lr}" bde80442
+a "pop {r2, r9, lr}" bde80442
 d "push {r3, r5}" 28b4
-aB "push {r3, r5}" 28b4
+a "push {r3, r5}" 28b4
 d "push {r6, lr}" 40b5
-aB "push {r6, lr}" 40b5
+a "push {r6, lr}" 40b5
 d "push.w {r1, sl, fp, ip}" 2de9021c
-aB "push {r1, r10-r12}" 2de9021c
+a "push {r1, r10-r12}" 2de9021c
 d "push.w {r6, r7, r8, sb, sl, lr}" 2de9c047
-aB "push {r6-r10, lr}" 2de9c047
+a "push {r6-r10, lr}" 2de9c047
 dB "qadd r6, sl, r2" 8afa82f6
-aB "qadd r6, r10, r2" 8afa82f6
+a "qadd r6, r10, r2" 8afa82f6
 dB "qadd r2, r2, r5" 82fa85f2
-aB "qadd r2, r5" 82fa85f2
+a "qadd r2, r5" 82fa85f2
 d "qadd16 ip, r6, r3" 96fa13fc
-aB "qadd16 r12, r6, r3" 96fa13fc
+a "qadd16 r12, r6, r3" 96fa13fc
 d "qadd16 r6, r6, r8" 96fa18f6
-aB "qadd16 r6, r8" 96fa18f6
+a "qadd16 r6, r8" 96fa18f6
 d "qadd8 sb, r2, r5" 82fa15f9
-aB "qadd8 r9, r2, r5" 82fa15f9
+a "qadd8 r9, r2, r5" 82fa15f9
 d "qadd8 r3, r3, r5" 83fa15f3
-aB "qadd8 r3, r5" 83fa15f3
+a "qadd8 r3, r5" 83fa15f3
 d "qasx r6, r3, sl" a3fa1af6
-aB "qasx r6, r3, r10" a3fa1af6
+a "qasx r6, r3, r10" a3fa1af6
 d "qasx r1, r1, fp" a1fa1bf1
-aB "qasx r1, r11" a1fa1bf1
+a "qasx r1, r11" a1fa1bf1
 dB "qdadd sb, r2, r3" 82fa93f9
-aB "qdadd r1, r2, r3" 82fa93f9
+a "qdadd r9, r2, r3" 82fa93f9
 dB "qdadd r6, r6, fp" 86fa9bf6
-aB "qdadd r6, r11" 86fa9bf6
+a "qdadd r6, r11" 86fa9bf6
 dB "qdsub r6, sl, r2" 8afab2f6
-aB "qdsub r6, r10, r2" 8afab2f6
+a "qdsub r6, r10, r2" 8afab2f6
 dB "qdsub r3, r3, r1" 83fab1f3
-aB "qdsub r3, r1" 83fab1f3
+a "qdsub r3, r1" 83fab1f3
 d "qsax r6, r2, sb" e2fa19f6
-aB "qsax r6, r2, r9" e2fa19f6
+a "qsax r6, r2, r9" e2fa19f6
 d "qsax r2, r2, sl" e2fa1af2
-aB "qsax r2, r10" e2fa1af2
+a "qsax r2, r10" e2fa1af2
 dB "qsub sb, r2, r5" 82faa5f9
-aB "qsub r9, r2, r5" 82faa5f9
+a "qsub r9, r2, r5" 82faa5f9
 dB "qsub r5, r5, ip" 85faacf5
-aB "qsub r5, r12" 85faacf5
+a "qsub r5, r12" 85faacf5
 d "qsub16 r3, sb, r2" d9fa12f3
-aB "qsub16 r3, r9, r2" d9fa12f3
+a "qsub16 r3, r9, r2" d9fa12f3
 d "qsub16 r6, r6, r5" d6fa15f6
-aB "qsub16 r6, r5" d6fa15f6
+a "qsub16 r6, r5" d6fa15f6
 d "qsub8 sb, r3, r2" c3fa12f9
-aB "qsub8 r9, r3, r2" c3fa12f9
+a "qsub8 r9, r3, r2" c3fa12f9
 d "qsub8 r2, r2, sl" c2fa1af2
-aB "qsub8 r2, r10" c2fa1af2
+a "qsub8 r2, r10" c2fa1af2
 d "rbit r7, sb" 99faa9f7
-aB "rbit r7, r9" 99faa9f7
+a "rbit r7, r9" 99faa9f7
 d "rev r6, r2" 16ba
-aB "rev r6, r2" 16ba
+a "rev r6, r2" 16ba
 d "rev.w sb, fp" 9bfa8bf9
-aB "rev r9, r11" 9bfa8bf9
+a "rev r9, r11" 9bfa8bf9
 d "rev16 r2, r4" 62ba
-aB "rev16 r2, r4" 62ba
+a "rev16 r2, r4" 62ba
 d "rev16.w r8, r7" 97fa97f8
-aB "rev16 r8, r7" 97fa97f8
+a "rev16 r8, r7" 97fa97f8
 d "revsh r1, r3" d9ba
-aB "revsh r1, r3" d9ba
+a "revsh r1, r3" d9ba
 d "revsh.w r2, sl" 9afabaf2
-aB "revsh r2, r10" 9afabaf2
+a "revsh r2, r10" 9afabaf2
 d "rfedb r8" 18e800c0
-aB "rfedb r8" 18e800c0
+a "rfedb r8" 18e800c0
 d "rfedb r2!" 32e800c0
-aB "rfedb r2!" 32e800c0
+a "rfedb r2!" 32e800c0
 d "rfeia r6" 96e900c0
-aB "rfeia r6" 96e900c0
+a "rfeia r6" 96e900c0
 d "rfeia r3!" b3e900c0
-aB "rfeia r3!" b3e900c0
+a "rfeia r3!" b3e900c0
 d "rfeia r7" 97e900c0
-aB "rfe r7" 97e900c0
+a "rfe r7" 97e900c0
 d "ror.w r3, r5, 0x17" 4feaf553
-aB "ror r3, r5, 0x17" 4feaf553
+a "ror r3, r5, 0x17" 4feaf553
 d "rors.w sb, r6, 3" 5feaf609
-aB "rors r9, r6, 0x3" 5feaf609
+a "rors r9, r6, 0x3" 5feaf609
 d "rors r6, r2" d641
-aB "ror r6, r2" d641
+a "ror r6, r2" d641
 d "ror.w sb, r3, r5" 63fa05f9
-aB "ror r9, r3, r5" 63fa05f9
+a "ror r9, r3, r5" 63fa05f9
 d "rors.w sl, r8, r3" 78fa03fa
-aB "rors r10, r8, r3" 78fa03fa
+a "rors r10, r8, r3" 78fa03fa
 d "ror.w r1, r3, r2" 63fa02f1
-aB "ror.w r1, r3, r2" 63fa02f1
+a "ror.w r1, r3, r2" 63fa02f1
 d "rrx sb, r2" 4fea3209
-aB "rrx r9, r2" 4fea3209
+a "rrx r9, r2" 4fea3209
 d "rrxs r2, r5" 5fea3502
-aB "rrxs r2, r5" 5fea3502
+a "rrxs r2, r5" 5fea3502
 d "rsbs r1, r5, 0" 6942
-aB "rsb r1, r5" 6942
+a "rsb r1, r5, 0" 6942
 d "rsbs r2, r2, 0" 5242
-aB "rsb r2" 5242
+a "rsb r2, 0" 5242
 d "rsbs r1, r3, 0" 5942
-aB "rsb r1, r3, 0" 5942
+a "rsb r1, r3, 0" 5942
 d "rsbs r6, r6, 0" 7642
-aB "rsb r6, 0" 7642
+a "rsb r6, 0" 7642
 d "rsb.w sb, r2, 0x16" c2f11609
-aB "rsb r9, r2, 0x16" c2f11609
+a "rsb r9, r2, 0x16" c2f11609
 d "rsbs.w r7, sb, -0x54ff5500" d9f1ab27 # 0xab00ab00
-aB "rsbs r7, r9, 0xab00ab00" d9f1ab27
+a "rsbs r7, r9, 0xab00ab00" d9f1ab27
 d "rsb.w r2, r3, 0" c3f10002
-aB "rsb.w r2, r3, 0" c3f10002
+a "rsb.w r2, r3, 0" c3f10002
 d "rsbs.w r3, r5, 0" d5f10003
-aB "rsbs.w r3, r5, 0" d5f10003
+a "rsbs.w r3, r5, 0" d5f10003
 d "rsb r4, sb, r2" c9eb0204
-aB "rsb r4, r9, r2" c9eb0204
+a "rsb r4, r9, r2" c9eb0204
 d "rsbs r5, r2, r6" d2eb0605
-aB "rsbs r5, r2, r6" d2eb0605
+a "rsbs r5, r2, r6" d2eb0605
 d "rsb sb, r2, r1, asr 25" c2eb6169
-aB "rsb r9, r2, r1, asr 25" c2eb6169
+a "rsb r9, r2, r1, asr 25" c2eb6169
 d "rsb r3, r3, r5" c3eb0503
-aB "rsb r3, r3, r5" c3eb0503
+a "rsb r3, r3, r5" c3eb0503
 d "sadd16 sb, r2, r1" 92fa01f9
 aB "sadd16 r9, r2, r1" 92fa01f9
 d "sadd16 r2, r2, r5" 92fa05f2
